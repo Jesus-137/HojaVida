@@ -6,7 +6,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/Jesus-137/HojaVida.git/Jesus-137" element={<HojaVida/>} />
+                <Route path="/Jesus-137/HojaVida.git" element={<HojaVida/>} />
                 <Route path="/HojaVida/" element={<HojaVida/>}/>
                 <Route path="/*" element={<NotFound/>}/>
             </Routes>

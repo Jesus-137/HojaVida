@@ -4,6 +4,7 @@ import Img from "../atoms/Img";
 import facebook from "../../assets/Img/Facebook.png"
 import intagram from "../../assets/Img/instagram.png"
 import linkedin from "../../assets/Img/linkedin.png";
+import Link from "../atoms/Link";
 import "../../assets/Styles/Redes.css"
 
 function Redes() {
@@ -13,15 +14,15 @@ function Redes() {
             <div className="contenedorRedes">
                 <div className="divR">
                     <Img style="imgRedes" foto={facebook}/>
-                    <Mst style="mstR" mensaje="Facebook"/>
+                    <Link style="mstR" mensaje="Facebok" lin="https://www.facebook.com/jesusignacio.velazquezhernandez.90/" style2="linR"/>
                 </div>
                 <div className="divR">
                     <Img style="imgRedes" foto={intagram}/>
-                    <Mst style="mstR" mensaje="Instagram"/>
+                    <Link style="mstR" mensaje="Instagram" lin="https://www.instagram.com/jesusignaciovelazqez/" style2="linR"/>
                 </div>
                 <div className="divR">
                     <Img foto={linkedin} style="imgRedes"/>
-                    <Mst style="mstR" mensaje="linkedin"/>
+                    <Link style="mstR" mensaje="linkedin" lin="https://www.linkedin.com/in/jesus-velazquez-hernandez-ab79b6262/" style2="linR"/>
                 </div>
             </div>
         </div>

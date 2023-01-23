@@ -27,8 +27,14 @@
 .mstR{
     color:white;
     font-size: 300%;
+    text-transform: none;
+    text-decoration: none;
 }
 
 .caption{
     font-size: 250%;
+}
+
+.linR{
+    text-decoration: none;
 }
